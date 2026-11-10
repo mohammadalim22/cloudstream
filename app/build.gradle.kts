@@ -103,7 +103,10 @@ android {
     compileSdk = libs.versions.compileSdk.get().toInt()
 
     defaultConfig {
-        applicationId = "com.lagradost.cloudstream3"
+        // === এখানে আপনার অ্যাপের প্যাকেজ নাম পরিবর্তন করা হয়েছে ===
+        applicationId = "com.anbukai.anime" 
+        // =======================================================
+        
         minSdk = libs.versions.minSdk.get().toInt()
         targetSdk = libs.versions.targetSdk.get().toInt()
         versionCode = libs.versions.versionCode.get().toInt()
